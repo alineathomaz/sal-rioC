@@ -14,37 +14,37 @@ int main(int argc, char *argv[]) {
 		inss = salario * 0.08;
 		ir = 0;
 	}
-	else if (salario >=1693.73 && salario <= 1903,98)
+	if (salario >=1693.73 && salario <= 1903,98)
 	{
 		inss = salario * 0.09;
 		ir = 0;
 	}
-	else if(salario >= 1903.99 && salario <= 2822.90)
+	if(salario >= 1903.99 && salario <= 2822.90)
 	{
 		inss = salario * 0.09;
 		ir = salario * 0.075;
 	}
-	else if(salario >=2822.91 && salario <= 2826.65)
+	if(salario >=2822.91 && salario <= 2826.65)
 	{
 		inss = salario * 0.11;
 		ir = salario * 0.075;
 	}
-	else if(salario >= 2826.66 && salario <= 3751.05)
+	if(salario >= 2826.66 && salario <= 3751.05)
 	{
-		inss = salario *0.11;
+		inss = salario * 0.11;
 		ir = salario * 0.15;
 	}
-	else if(salario >= 3751.06 && salario <= 4664.68)
+	if(salario >= 3751.06 && salario <= 4664.68)
 	{
 		inss = salario * 0.11;
 		ir = salario * 0.225;
 	}
-	else if(salario >= 4664.69 && salario <= 5646.80)
+	if(salario >= 4664.69 && salario <= 5646.80)
 	{
 		inss = salario * 0.11;
 		ir = salario * 0.275;
 	}
-	else
+	if(salario >= 5646.81)
 	{
 		inss = 621.04;
 		ir = salario * 0.275;
